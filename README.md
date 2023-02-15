@@ -7,22 +7,22 @@ Lab 5 exercises from EIE3105 made on ARM
 **Section A:**
 Test LED
 
-**Section B: **
+**Section B:**
 Delay loop function test
 
 **Section C:**
 Repeat Section B but this time you should use the standard peripheral function Systick.
 
-**Section D: **
+**Section D:**
 Use the on-board button (PC13) to switch on and off the on-board LED (PA5). When the button is pressed, the LED is on. When the button is released, the LED is off
 
-**Section E: **
+**Section E:**
 Use the on-board button (PC13) to change the state of the on-board LED (PA5).
 There are two states in the button: State 0 and 1. When it is in State 0, the LED is off. When 
 it is in State 1, the LED is on. At the beginning, the button is in State 0. When the button is 
 pressed and it is in State 0, it goes to State 1. When the button is pressed and it is in State 1, it goes to State 0.
 
-**Section F: **
+**Section F:**
 Write a C Program to simulate the traffic lights
 Write a C program to simulate the traffic lights by using different pins. You can use any pins 
 to simulate the traffic lights. You must use interrupt to implement the application.
@@ -39,16 +39,16 @@ Light 1 (GREEN Blinking), Light 2 (RED), Light 3 (YELLOW), period (around 1s)
 Light 1 (RED), Light 2 (RED), Light 3 (RED), period (around 1s)
 Light 1 (RED), Light 2 RED+YELLOW), Light 3 (RED), period (around 1s)
 
-**Section G: **
+**Section G:**
 Write a C program to count a switch
 Connect a switch to a pin and a LED to another pin. There are two states in the switch: State 
 0 and 1. When it is in State 0, the LED is off. When it is in State 1, the LED is on. At the 
 beginning, the switch is in State 0. When the switch is pressed three times and it is in State 0, it goes to State 1. When the switch is pressed three times and it is in State 1, it goes to State 0. You must use interrupt to implement the application
 
-**Section H: **
+**Section H:**
 Use an external hardware interrupt to enable the simulation of the traffic lights. Connect a switch to an external hardware interrupt pin. Write a C program so that the simulation of the traffic lights in Section A can be started by pressing the switch once. If the switch is pressed again, the simulation of the traffic lights will be stopped (i.e., all LEDs are OFF).
 
-**Section I: **
+**Section I:**
 Write a C program to keep sending and receiving characters
 Write a C program to complete the following tasks by using interrupts:
 1. Before you press any keys, character ‘a’ is printed continuously.
